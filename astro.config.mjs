@@ -9,6 +9,6 @@ import netlify from "@astrojs/netlify/functions";
 export default defineConfig({
   site: 'https://dbeccaria.info',
   integrations: [mdx(), sitemap(), tailwind()],
-  output: "server",
+  output: "static",
   adapter: netlify()
 });
