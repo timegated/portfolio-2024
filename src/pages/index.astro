@@ -7,6 +7,7 @@ import createSlug from "../lib/createSlug"
 const posts = (await getCollection("blog")).sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
 
 const last_posts = posts.slice(0, 3);
+
 ---
 
 <BaseLayout sideBarActiveItemID="home">
@@ -42,6 +43,25 @@ const last_posts = posts.slice(0, 3);
     url="https://modest-kowalevski-a36e52.netlify.app/"
     badge="VanillaJS"
   />
+  <div class="divider my-0" /> 
+  <a
+  href="/projects"
+  class={`inline-flex items-center justify-content-center text-black-600 hover:text-blue-800 transition-colors duration-300 text-2xl font-bold`}
+>
+  More Projects
+  <svg
+    xmlns="http://www.w3.org/2000/svg"
+    class="h-5 w-5 ml-1"
+    viewBox="0 0 20 20"
+    fill="currentColor"
+  >
+    <path
+      fill-rule="evenodd"
+      d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+      clip-rule="evenodd"
+    />
+  </svg>
+</a>
     <div class="text-3xl w-full font-bold mb-5 mt-10">Blog Posts</div>
   </div>
 
