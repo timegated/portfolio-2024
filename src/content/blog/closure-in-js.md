@@ -2,7 +2,7 @@
 title: "Closure in Javascript"
 description: "How closure works in Javascript"
 pubDate: "March 3 2021"
-heroImage: "/post_img.webp"
+heroImage: "/js-closure.jpeg"
 badge: ""
 tags: ["Javascript", Closure]
 ---

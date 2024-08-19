@@ -2,8 +2,8 @@
 title: "Webpack Boilerplate"
 description: "Webpack boilerplate code I wrote based on some projects at my current job to try to speed things up"
 pubDate: "April 27 2021"
-heroImage: "/post_img.webp"
-badge: ""
+heroImage: "/webpack.png"
+badge: "Webpack"
 tags: ["Webpack", "JS", "Bundling"]
 ---
 

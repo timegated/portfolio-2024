@@ -2,8 +2,8 @@
 title: "Creating Microservices using Golang"
 description: "Creating microservices using Golang"
 pubDate: "April 8 2023"
-heroImage: "/post_img.webp"
-badge: ""
+heroImage: "/golang-micro.png"
+badge: "Go"
 tags: ["Golang","Microservices"]
 ---
 
