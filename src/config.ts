@@ -3,5 +3,5 @@
 
 export const SITE_TITLE = 'Dan Beccaria | Software Engineer';
 export const SITE_DESCRIPTION = 'Dan is a software engineer working out of Los Angeles';
-export const GENERATE_SLUG_FROM_TITLE = true
-export const TRANSITION_API = true
+export const GENERATE_SLUG_FROM_TITLE = false
+export const TRANSITION_API = false
